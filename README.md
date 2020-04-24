@@ -1,21 +1,23 @@
 # Project 3: From Portland to Portland
 
 ### Overview
-* Intro
-* Figma
-* Images
+This is my second real project. The website about traveling across the US.
 
-**Intro**
+**Technologies**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+HTML
 
-**Figma**
+CSS
 
-* [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
+**Description**
 
-**Images**
+I used all the information I have learned over the past few weeks to create this project. I followed a spec sheet on Figma. I had to make it responsive for most popular resolutions. There are a few hover affects. I used BEM methodology and file structure.
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+**Improvements and status**
 
-Good luck and have fun!
+I plan to continue to perfect this project. Fine tuning its responsive nature and adding media queries for higher resolutions. 
+
+Status: in progress
+
+Thank you 
 # web_project_three
