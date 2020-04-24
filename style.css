@@ -1,0 +1,480 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .header {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-top: 20px;
+    }
+
+    .header__logo {
+        width: 156px;
+        height: 36px;
+    }
+
+    .header__link {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+.lead {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        margin: 50px auto 0;
+    }
+
+    .lead__image {
+        margin: 56px auto 0;
+        width: 90%;
+      
+    }
+
+    .lead__caption {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 100%;
+        
+       
+    }
+
+    .lead__caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 1.1;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 1.25;
+        margin: 16px 16px 0;
+    }
+
+    .lead__image {
+        margin-top: 40px;
+     
+    }
+
+    .lead__caption {
+        margin-left: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .intro__container {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__container {
+        margin-left: 24px;
+        margin-right: 24px;
+        max-width: 720px;
+        
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .intro__container {
+        max-width: 288px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+
+    .intro__subtitle {
+        font-size: 24px;
+        line-height: 1.25;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .photo-grid__container {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: repeat(4, auto);
+        max-width: 90%;
+        grid-gap: 14px 14px;
+    }
+
+    .photo-grid__item {
+        
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid__container {
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(6, auto);
+        max-width: 93%;
+        grid-gap: 16px 16px;
+        margin-top: 88px;
+        margin-bottom: 16px;
+        justify-content: initial;
+    }
+
+    .photo-grid__item {
+       
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .photo-grid__container {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(12, auto);
+        max-width: 288px;
+        grid-gap: 12px;
+        margin-top: 64px;
+    }
+
+    .photo-grid__item {
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+    }
+
+    .place__column-header {
+        grid-gap: 32px;
+    }
+
+    .place__title {
+        max-width: 440px;
+        margin-top: 72px;
+    }
+
+    .place__column-content {
+        grid-gap: 32px;
+       
+    }
+
+    .place__image {
+        width: 440px;
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        max-width: 720px;
+    }
+
+    .place__column-header {
+        grid-gap: 28px;
+    }
+
+    .place__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .place__column-content {
+        grid-gap: 28px;
+    }
+
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+
+    .place__main-text {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .place {
+        max-width: 320px;
+    }
+
+    .place__column-header {
+        grid-gap: 28px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .place__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 1.1;
+        margin-top: 48px;
+    }
+
+    .place__url {
+        display: none;
+    }
+
+    .place__column-content {
+        margin-top: 32px;
+        display: block;
+    }
+
+    .place__image {
+        width: 320px;
+        height: 320px;
+        margin-bottom: 32px;
+    }
+
+    .place__paragraphs {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .place__main-text {
+       max-width: 288px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .cover__image {
+        width 100%;
+        margin: 0;
+    }
+
+    .cover__title {
+        top: 233px;
+        left: 184px;
+    }
+
+    .cover__subtitle {
+        top: 341px;
+        left: 352px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: 88px;
+    }
+    
+    .cover__image {
+       
+
+    }
+
+    .cover__title {
+        top: 153px;
+        left: 56px;
+        
+    }
+
+    .cover__subtitle {
+        top: 261px;
+        left: 224px;
+        
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .cover {
+        margin-top: 64px;
+    }
+    
+    .cover__image {
+       
+    }
+
+    .cover__title {
+        top: 51px;
+        left: 16px;
+        margin-bottom: 16px;
+        font-size: 32px;
+        line-height: 1.1;
+    }
+
+    .cover__subtitle {
+        top: 102px;
+        left: 16px;
+        font-size: 14px;
+        line-height: 1.1;
+        max-width: 288px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 88px 24px 0;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .footer {
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    .footer__container {
+        display: block;
+    }
+
+    .footer__link {
+        display: block;
+        margin-top: 32px;
+        font-size: 24px;
+        line-height: 1;
+        
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 1;
+        margin-top: 48px;
+        margin-bottom: 0;
+    }
+}

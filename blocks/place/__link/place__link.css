@@ -1,0 +1,11 @@
+.place__link {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #fff;
+}
+
+.place__link:hover {
+    cursor: url('./images/Cursor/Pointer.svg'), pointer;
+    opacity: 0.8;
+}

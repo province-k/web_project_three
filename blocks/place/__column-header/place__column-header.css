@@ -1,0 +1,27 @@
+.place__column-header {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    grid-gap: 40px;
+    align-items: end;
+ }
+
+ @media screen and (max-width: 1024px) {
+    .place__column-header {
+        grid-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__column-header {
+        grid-gap: 28px;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .place__column-header {
+        grid-gap: 28px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}

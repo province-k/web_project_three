@@ -1,0 +1,29 @@
+.place__column-content {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 48px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .place__column-content {
+        grid-gap: 32px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .place__column-content {
+        grid-gap: 28px;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .place__column-content {
+        margin-top: 32px;
+        display: block;
+    }
+}

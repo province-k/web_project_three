@@ -1,0 +1,30 @@
+.place__main-text {
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.place__main-text:first-child {
+    margin-top: 0;
+}
+
+.place__main-text:last-child {
+    margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .place__main-text {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .place__main-text {
+       max-width: 288px;
+    }
+}
